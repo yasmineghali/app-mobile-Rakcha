@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center_horizontal|center_vertical"
+    android:layout_margin="10dp"
+    android:gravity="center_horizontal"
+    android:stretchColumns="1,2"
+    tools:context=".Rackcha1">
+
+    <TableRow>
+        <TextView
+            android:id="@+id/tx"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_span="3"
+            android:gravity="center"
+            android:text="WELCOME"
+            android:textSize="50dp"/>
+    </TableRow>
+    <TableRow>
+        <TextView
+            android:id="@+id/u"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_span="3"
+            android:gravity="center"
+            android:textSize="10dp"/>
+
+    </TableRow>
+    <TableRow>
+        <TextView
+            android:id="@+id/txt1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_span="3"
+            android:text="OUR Game Is"
+            android:textSize="10dp"/>
+    </TableRow>
+
+
+    <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_span="3"
+             android:gravity="center"
+
+            >
+
+            <ImageView
+                android:id="@+id/f"
+                android:layout_width="400dp"
+                android:layout_height="300dp"
+                android:background="@drawable/f9"
+                />
+        </TableRow>
+    <TableRow
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_span="3"
+        android:gravity="center">
+        <Button
+            android:id="@+id/b"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/purple_700"
+            android:text="NEXT"
+
+            />
+    </TableRow>
+
+
+
+
+
+
+
+</TableLayout>
